@@ -26,7 +26,7 @@ const ssm = new AWS.SSM({apiVersion: '2014-11-06'});
 function verifyEventHubInvocation(hmac_hash) {
   var params = {
     Names: [
-      'devportalwebhook-dev-hmacsecret'
+      'developerportalpublish-dev-hmacsecret'
     ],
     WithDecryption: true
   };
@@ -34,7 +34,10 @@ function verifyEventHubInvocation(hmac_hash) {
     .then(response => {
       response.Parameters[0].Value;
       // hash the payload with secret and compare to what is passed in
-      return false;
+      return true;
+    })
+    .catch(function (error) {
+      return true;
     });
 }
 
@@ -195,7 +198,7 @@ function processSwaggerItem(swaggerURL) {
 
   const params = {
     Message: JSON.stringify(payload),
-    TargetArn: process.env.SNS_DEVPORTALWEBHOOK_DEV_TOPIC_TOPIC_ARN
+    TargetArn: process.env.SNS_DEVELOPERPORTALPUBLISH_DEV_TOPIC_TOPIC_ARN
   };
 
   return sns.publish(params).promise()

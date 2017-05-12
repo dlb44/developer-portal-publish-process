@@ -48,7 +48,7 @@ app.listen(process.env.PORT, function () {
 function retrieveItems(res, callback) {
   var s3bucket = new AWS.S3();
   let params = {
-    Bucket : process.env.S3_DEVPORTALSWAGGERDOC_DEV_BUCKET_BUCKET_NAME,
+    Bucket : process.env.S3_DEVELOPERPORTALPUBLISH_DEV_BUCKET_BUCKET_NAME,
     StartAfter : 'apis'
   };
   var currentTotal = 0;
@@ -120,7 +120,7 @@ function fetchItem(key, recursiveDataObj, callback)
 {
   var s3 = new AWS.S3();
   let params = {
-    Bucket: process.env.S3_DEVPORTALSWAGGERDOC_DEV_BUCKET_BUCKET_NAME,
+    Bucket: process.env.S3_DEVELOPERPORTALPUBLISH_DEV_BUCKET_BUCKET_NAME,
     Key: key
   };
   s3.headObject(params,function (err, data) {

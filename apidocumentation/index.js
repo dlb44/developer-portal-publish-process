@@ -31,7 +31,7 @@ AWS.config.region = 'us-west-2';
 AWS.config.setPromisesDependency(Promise);
 
 var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
-var QUEUE_URL = process.env.SQS_DEVPORTALSWAGGERDOC_DEV_QUEUE_QUEUE_URL;
+var QUEUE_URL = process.env.SQS_DEVELOPERPORTALPUBLISH_DEV_QUEUE_QUEUE_URL;
 
 var processingMessage = false;
 
@@ -229,7 +229,7 @@ function saveHTMLDocumentation(keyPrefix, swagger, params) {
     api_key_name = api_key_name.substr(1);
   }
   console.log(api_key_name);
-  params.Bucket = process.env.S3_DEVPORTALSWAGGERDOC_DEV_BUCKET_BUCKET_NAME;
+  params.Bucket = process.env.S3_DEVELOPERPORTALPUBLISH_DEV_BUCKET_BUCKET_NAME;
   params.Key = keyPrefix + '/' + api_key_name + '.csv';
   params.ContentType = 'text/plain';
   var domainOrUAPI = "U";
