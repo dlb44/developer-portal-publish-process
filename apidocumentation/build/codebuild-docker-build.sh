@@ -2,8 +2,8 @@
 set -eux
 
 echo "Building Docker image"
-imageName=$HANDEL_PIPELINE_NAME-app
-docker build -t "$imageName:latest" .
+imageName=$HANDEL_PIPELINE_NAME-apidocs
+docker build -t "$imageName:latest" apidocumentation
 
 arrEnvs=(${ENV_TO_DEPLOY//,/ })
 for env in "${arrEnvs[@]}"; do
