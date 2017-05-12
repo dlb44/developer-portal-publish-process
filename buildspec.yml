@@ -2,7 +2,8 @@ version: 0.1
 phases:
   pre_build:
     commands:
-      - curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+      - curl -sL https://deb.nodesource.com/setup_6.x | bash -
+      - apt-get install -y nodejs
       - $(aws ecr get-login --region us-west-2)
   build:
     commands:
