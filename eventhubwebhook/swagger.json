@@ -1,0 +1,30 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0",
+      "title": "DeveloperPortalGitHubPushHandler",
+      "x-deploy-stage": "stage"
+    },
+    "paths": {
+        "/": {
+            "post": {
+                "x-lambda-function": "DeveloperPortalGitHubPushHandler",
+                "responses": {
+                  "200": {
+                      "description": "Success"
+                  }
+                }
+            }
+        }
+    },
+    "x-lambda-functions": {
+        "DeveloperPortalGitHubPushHandler": {
+            "description": "Parses the EventHub edu.byu/AppDevGitHub/GitHub Push",
+            "file": "deploy.zip",
+            "handler": "index.processEvent",
+            "runtime": "nodejs4.3",
+            "timeout": 30,
+            "role": "DeveloperPortalDocumentationGeneratorRole"
+        }
+    }
+}

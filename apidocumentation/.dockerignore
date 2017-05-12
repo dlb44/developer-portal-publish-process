@@ -1,0 +1,7 @@
+.idea
+node_modules
+test
+Dockerfile
+Dockerrun.aws.json.template
+result.html
+swagger.json

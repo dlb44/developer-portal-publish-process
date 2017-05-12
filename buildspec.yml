@@ -1,0 +1,16 @@
+version: 0.1
+phases:
+  pre_build:
+    commands:
+      - curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+      - $(aws ecr get-login --region us-west-2)
+  build:
+    commands:
+      - npm --prefix ./eventhubwebhook install ./eventhubwebhook
+      - chmod a+x ./apidocumentation/build/codebuild-docker-build.sh
+      - bash ./apidocumentation/build/codebuild-docker-build.sh
+      - npm --prefix ./drupalimportapi install ./drupalimportapi
+      - npm --prefix ./infohubimport install ./infohubimport
+artifacts:
+  files:
+    - ./**/*

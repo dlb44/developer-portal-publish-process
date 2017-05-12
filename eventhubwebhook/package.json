@@ -1,0 +1,31 @@
+{
+  "name": "developer-portal-process-github-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byu-oit-appdev/developer-portal-process-github-push.git"
+  },
+  "author": "Matthew Hailstone",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byu-oit-appdev/developer-portal-process-github-push/issues"
+  },
+  "homepage": "https://github.com/byu-oit-appdev/developer-portal-process-github-push#readme",
+  "dependencies": {
+    "aws-sdk": "^2.5.5",
+    "bluebird": "^3.4.1",
+    "request": "^2.74.0",
+    "yamljs": "^0.2.8"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "aws-sdk-mock": "^1.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

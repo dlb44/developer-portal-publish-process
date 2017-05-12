@@ -1,0 +1,22 @@
+version: 1
+
+pipelines:
+  dev:
+    phases:
+    - phase_type: source
+      action_type: github
+      phase_name: Source
+      owner: byu-oit-appdev
+      repo: developer-portal-publish-process
+      branch: master
+    - phase_type: build
+      action_type: codebuild
+      phase_name: Build
+      build_image: aws/codebuild/docker:1.12.1
+      environment_variables:
+        ENV_TO_DEPLOY: dev
+    - phase_type: deploy
+      action_type: handel
+      phase_name: DevDeploy
+      envs:
+      - dev

@@ -1,0 +1,248 @@
+{
+    "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/compare/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8...f9c0893da817a502b421e18b5ae5d18993536e1e",
+    "html_url": "https://github.com/byu-oit-appdev/cars-tutorial/compare/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8...f9c0893da817a502b421e18b5ae5d18993536e1e",
+    "permalink_url": "https://github.com/byu-oit-appdev/cars-tutorial/compare/byu-oit-appdev:632f384...byu-oit-appdev:f9c0893",
+    "diff_url": "https://github.com/byu-oit-appdev/cars-tutorial/compare/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8...f9c0893da817a502b421e18b5ae5d18993536e1e.diff",
+    "patch_url": "https://github.com/byu-oit-appdev/cars-tutorial/compare/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8...f9c0893da817a502b421e18b5ae5d18993536e1e.patch",
+    "base_commit": {
+        "sha": "632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+        "commit": {
+            "author": {
+                "name": "Matthew Hailstone",
+                "email": "mhailstone@users.noreply.github.com",
+                "date": "2016-07-27T16:32:59Z"
+            },
+            "committer": {
+                "name": "Matthew Hailstone",
+                "email": "mhailstone@users.noreply.github.com",
+                "date": "2016-07-27T16:32:59Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "9245e1f47f90f248a9c12d346befab940a51ec82",
+                "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/git/trees/9245e1f47f90f248a9c12d346befab940a51ec82"
+            },
+            "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/git/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+            "comment_count": 0
+        },
+        "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+        "html_url": "https://github.com/byu-oit-appdev/cars-tutorial/commit/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+        "comments_url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8/comments",
+        "author": {
+            "login": "mhailstone",
+            "id": 12089963,
+            "avatar_url": "https://avatars.githubusercontent.com/u/12089963?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mhailstone",
+            "html_url": "https://github.com/mhailstone",
+            "followers_url": "https://api.github.com/users/mhailstone/followers",
+            "following_url": "https://api.github.com/users/mhailstone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mhailstone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mhailstone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mhailstone/subscriptions",
+            "organizations_url": "https://api.github.com/users/mhailstone/orgs",
+            "repos_url": "https://api.github.com/users/mhailstone/repos",
+            "events_url": "https://api.github.com/users/mhailstone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mhailstone/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "mhailstone",
+            "id": 12089963,
+            "avatar_url": "https://avatars.githubusercontent.com/u/12089963?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mhailstone",
+            "html_url": "https://github.com/mhailstone",
+            "followers_url": "https://api.github.com/users/mhailstone/followers",
+            "following_url": "https://api.github.com/users/mhailstone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mhailstone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mhailstone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mhailstone/subscriptions",
+            "organizations_url": "https://api.github.com/users/mhailstone/orgs",
+            "repos_url": "https://api.github.com/users/mhailstone/repos",
+            "events_url": "https://api.github.com/users/mhailstone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mhailstone/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    },
+    "merge_base_commit": {
+        "sha": "632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+        "commit": {
+            "author": {
+                "name": "Matthew Hailstone",
+                "email": "mhailstone@users.noreply.github.com",
+                "date": "2016-07-27T16:32:59Z"
+            },
+            "committer": {
+                "name": "Matthew Hailstone",
+                "email": "mhailstone@users.noreply.github.com",
+                "date": "2016-07-27T16:32:59Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "9245e1f47f90f248a9c12d346befab940a51ec82",
+                "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/git/trees/9245e1f47f90f248a9c12d346befab940a51ec82"
+            },
+            "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/git/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+            "comment_count": 0
+        },
+        "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+        "html_url": "https://github.com/byu-oit-appdev/cars-tutorial/commit/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+        "comments_url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8/comments",
+        "author": {
+            "login": "mhailstone",
+            "id": 12089963,
+            "avatar_url": "https://avatars.githubusercontent.com/u/12089963?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mhailstone",
+            "html_url": "https://github.com/mhailstone",
+            "followers_url": "https://api.github.com/users/mhailstone/followers",
+            "following_url": "https://api.github.com/users/mhailstone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mhailstone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mhailstone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mhailstone/subscriptions",
+            "organizations_url": "https://api.github.com/users/mhailstone/orgs",
+            "repos_url": "https://api.github.com/users/mhailstone/repos",
+            "events_url": "https://api.github.com/users/mhailstone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mhailstone/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "mhailstone",
+            "id": 12089963,
+            "avatar_url": "https://avatars.githubusercontent.com/u/12089963?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mhailstone",
+            "html_url": "https://github.com/mhailstone",
+            "followers_url": "https://api.github.com/users/mhailstone/followers",
+            "following_url": "https://api.github.com/users/mhailstone/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mhailstone/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mhailstone/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mhailstone/subscriptions",
+            "organizations_url": "https://api.github.com/users/mhailstone/orgs",
+            "repos_url": "https://api.github.com/users/mhailstone/repos",
+            "events_url": "https://api.github.com/users/mhailstone/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mhailstone/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    },
+    "status": "ahead",
+    "ahead_by": 1,
+    "behind_by": 0,
+    "total_commits": 1,
+    "commits": [
+        {
+            "sha": "f9c0893da817a502b421e18b5ae5d18993536e1e",
+            "commit": {
+                "author": {
+                    "name": "mhailstone",
+                    "email": "matthew.hailstone@gmail.com",
+                    "date": "2016-08-10T19:06:03Z"
+                },
+                "committer": {
+                    "name": "mhailstone",
+                    "email": "matthew.hailstone@gmail.com",
+                    "date": "2016-08-10T19:06:03Z"
+                },
+                "message": "Ready for initial automated processing",
+                "tree": {
+                    "sha": "4b7a7d5dbc26cc0586ba4a8f9b66fdda433e1510",
+                    "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/git/trees/4b7a7d5dbc26cc0586ba4a8f9b66fdda433e1510"
+                },
+                "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/git/commits/f9c0893da817a502b421e18b5ae5d18993536e1e",
+                "comment_count": 0
+            },
+            "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/f9c0893da817a502b421e18b5ae5d18993536e1e",
+            "html_url": "https://github.com/byu-oit-appdev/cars-tutorial/commit/f9c0893da817a502b421e18b5ae5d18993536e1e",
+            "comments_url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/f9c0893da817a502b421e18b5ae5d18993536e1e/comments",
+            "author": {
+                "login": "mhailstone",
+                "id": 12089963,
+                "avatar_url": "https://avatars.githubusercontent.com/u/12089963?v=3",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/mhailstone",
+                "html_url": "https://github.com/mhailstone",
+                "followers_url": "https://api.github.com/users/mhailstone/followers",
+                "following_url": "https://api.github.com/users/mhailstone/following{/other_user}",
+                "gists_url": "https://api.github.com/users/mhailstone/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/mhailstone/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/mhailstone/subscriptions",
+                "organizations_url": "https://api.github.com/users/mhailstone/orgs",
+                "repos_url": "https://api.github.com/users/mhailstone/repos",
+                "events_url": "https://api.github.com/users/mhailstone/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/mhailstone/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "committer": {
+                "login": "mhailstone",
+                "id": 12089963,
+                "avatar_url": "https://avatars.githubusercontent.com/u/12089963?v=3",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/mhailstone",
+                "html_url": "https://github.com/mhailstone",
+                "followers_url": "https://api.github.com/users/mhailstone/followers",
+                "following_url": "https://api.github.com/users/mhailstone/following{/other_user}",
+                "gists_url": "https://api.github.com/users/mhailstone/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/mhailstone/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/mhailstone/subscriptions",
+                "organizations_url": "https://api.github.com/users/mhailstone/orgs",
+                "repos_url": "https://api.github.com/users/mhailstone/repos",
+                "events_url": "https://api.github.com/users/mhailstone/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/mhailstone/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "parents": [
+                {
+                    "sha": "632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+                    "url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/commits/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8",
+                    "html_url": "https://github.com/byu-oit-appdev/cars-tutorial/commit/632f384b0037e7a7c2636fb7b5ea86e7f5c307f8"
+                }
+            ]
+        }
+    ],
+    "files": [
+        {
+            "sha": "723ef36f4e4f32c4560383aa5987c575a30c6535",
+            "filename": ".gitignore",
+            "status": "added",
+            "additions": 1,
+            "deletions": 0,
+            "changes": 1,
+            "blob_url": "https://github.com/byu-oit-appdev/cars-tutorial/blob/f9c0893da817a502b421e18b5ae5d18993536e1e/.gitignore",
+            "raw_url": "https://github.com/byu-oit-appdev/cars-tutorial/raw/f9c0893da817a502b421e18b5ae5d18993536e1e/.gitignore",
+            "contents_url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/contents/.gitignore?ref=f9c0893da817a502b421e18b5ae5d18993536e1e",
+            "patch": "@@ -0,0 +1 @@\n+.idea\n\\ No newline at end of file"
+        },
+        {
+            "sha": "7f64746ef593c9ce0e72e59f1e1ff12a75f6c521",
+            "filename": ".repo-meta.json",
+            "status": "added",
+            "additions": 48,
+            "deletions": 0,
+            "changes": 48,
+            "blob_url": "https://github.com/byu-oit-appdev/cars-tutorial/blob/f9c0893da817a502b421e18b5ae5d18993536e1e/.repo-meta.json",
+            "raw_url": "https://github.com/byu-oit-appdev/cars-tutorial/raw/f9c0893da817a502b421e18b5ae5d18993536e1e/.repo-meta.json",
+            "contents_url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/contents/.repo-meta.json?ref=f9c0893da817a502b421e18b5ae5d18993536e1e",
+            "patch": "@@ -0,0 +1,48 @@\n+{\n+    \"$schemaver\": \"1.0\",\n+    \"displayName\": \"Cars Tutorial\",\n+    \"maintainers\": {\n+        \"teams\": [\n+            \"byu-oit-appdev\"\n+        ],\n+        \"developers\": [\n+            \"mhailstone\",\n+            \"bwinterton\"\n+        ]\n+    },\n+    \"tags\": [\n+        \"microservice\",\n+        \"tutorial\"\n+    ],\n+    \"urls\": {\n+        \"prod\": {\n+            \"api\": \"https://api.byu.edu/domains/tutorial/cars\"\n+        },\n+        \"stage\": \"https://api.byu.edu/domains/tutorial/cars\"\n+    },\n+    \"stack\": {\n+        \"aws\": {\n+            \"regions\": [\"us-west-2\"],\n+            \"account\": \"\",\n+            \"awsTags\": {\n+                \"AppName\": \"\",\n+                \"ModuleName\": \"\"\n+            }\n+        }\n+    },\n+    \"productDefRepo\": \"https://github.com/byu-oit-appdev/cars-tutorial\",\n+    \"productDef\": {\n+        \"name\": \"cars-tutorial\",\n+        \"tags\": [\n+            \"microservice\",\n+            \"tutorial\"\n+        ],\n+        \"maintainers\": {\n+            \"developers\": [\n+                \"mhailstone\",\n+                \"bwinterton\"\n+            ]\n+        }\n+    },\n+    \"swagger_path\": \"swagger.json\"\n+}\n\\ No newline at end of file"
+        },
+        {
+            "sha": "967a5c182b801628cf40d399aa950991d16288f4",
+            "filename": "swagger.json",
+            "status": "added",
+            "additions": 4431,
+            "deletions": 0,
+            "changes": 4431,
+            "blob_url": "https://github.com/byu-oit-appdev/cars-tutorial/blob/f9c0893da817a502b421e18b5ae5d18993536e1e/swagger.json",
+            "raw_url": "https://github.com/byu-oit-appdev/cars-tutorial/raw/f9c0893da817a502b421e18b5ae5d18993536e1e/swagger.json",
+            "contents_url": "https://api.github.com/repos/byu-oit-appdev/cars-tutorial/contents/swagger.json?ref=f9c0893da817a502b421e18b5ae5d18993536e1e"
+        }
+    ]
+}

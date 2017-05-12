@@ -1,0 +1,32 @@
+{
+  "name": "developer-portal-swagger-documentation-from-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Matthew Hailstone",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.6.10",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.17.1",
+    "bootprint": "^1.0.0",
+    "bootprint-openapi": "^1.0.1",
+    "concat-stream-promise": "^0.1.1",
+    "express": "^4.15.2",
+    "html-inline": "^1.2.0",
+    "htmlencode": "0.0.4",
+    "json-refs": "^2.1.6",
+    "mustache": "^2.2.1",
+    "path": "^0.12.7",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "aws-sdk-mock": "^1.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}

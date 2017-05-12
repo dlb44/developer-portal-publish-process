@@ -1,0 +1,32 @@
+{
+  "name": "developer-portal-drupal-import-api",
+  "version": "0.0.1",
+  "description": "API for the Developer Portal site to import generated documentation  ## lambda_handler ```Python lambda_handler(event,context) ``` This is the entry point for the AWS Lambda function. It retrieves the documentation saved to an S3 Bucket and processes the first 50 items. It returns the content into a CSV format: ```text uuid|title|body|domain_or_university_api|path \"/byuapi/academic_units\"|\"Academic Units\"|&lt;!doctype html&gt;&lt;html&gt;&lt;/html&gt;\"|\"U\"|\"/byuapi/academic_units\" ``` * ```uuid```     * Because the basepath of the Swagger document is unique across our APIs, we use it as our UUID. * ```title```     * Title of the API found in the ```title``` property of the Swagger document ```info``` property. * ```body```     * Generated HTML from the Swagger document that is represented as an HTMLEncoded string. * ```domain_or_university```     * specifies a ```D``` if the API is a \"Domain\" API.     * specifies a ```U``` if the API is a \"University\" API. * ```path```     * ```basePath``` of the Swagger document",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byu-oit-appdev/developer-portal-drupal-import-api.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byu-oit-appdev/developer-portal-drupal-import-api/issues"
+  },
+  "homepage": "https://github.com/byu-oit-appdev/developer-portal-drupal-import-api#readme",
+  "devDependencies": {
+    "aws-sdk-mock": "^1.6.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.28.0",
+    "express": "^4.15.2"
+  }
+}

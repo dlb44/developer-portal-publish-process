@@ -1,0 +1,29 @@
+{
+  "name": "infohub_swagger_import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhailstone/infohub_swagger_import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhailstone/infohub_swagger_import/issues"
+  },
+  "homepage": "https://github.com/mhailstone/infohub_swagger_import#readme",
+  "description": ""
+}
