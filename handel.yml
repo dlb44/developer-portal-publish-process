@@ -40,7 +40,7 @@ environments:
       path_to_code: drupalimportapi
       solution_stack: 64bit Amazon Linux 2016.09 v4.0.1 running Node.js
       instance_type: t2.micro
-      health_check_url: /
+      health_check_url: /health
       min_instances: 1
       max_instances: 1
       dependencies:
