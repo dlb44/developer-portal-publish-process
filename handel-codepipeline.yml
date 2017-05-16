@@ -17,3 +17,19 @@ pipelines:
       name: DevDeploy
       environments_to_deploy:
       - dev
+  prd:
+    phases:
+    - type: github
+      name: Source
+      owner: byu-oit-appdev
+      repo: developer-portal-publish-process
+      branch: master
+    - type: codebuild
+      name: Build
+      build_image: aws/codebuild/docker:1.12.1
+      environment_variables:
+        ENV_TO_DEPLOY: prd
+    - type: handel
+      name: PrdDeploy
+      environments_to_deploy:
+      - prd

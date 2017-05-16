@@ -142,7 +142,7 @@ function fetchItem(key, recursiveDataObj, callback)
           else {
             let content = data2.Body;
             s3.deleteObject({
-              Bucket: process.env.S3_DEVPORTALSWAGGERDOC_DEV_BUCKET_BUCKET_NAME,
+              Bucket: process.env.S3_DEVELOPERPORTALPUBLISH_DEV_BUCKET_BUCKET_NAME,
               Key: key}, function (err3, data3) {
               if(err3) {
                 console.log(err3);

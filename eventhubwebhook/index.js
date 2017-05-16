@@ -41,6 +41,22 @@ function verifyEventHubInvocation(hmac_hash) {
     });
 }
 
+function lambdaProxyResponse(error, data, callback) {
+  if(error) {
+    callback({
+      statusCode: 400,
+      headers: {},
+      body: JSON.stringify(error)
+    });
+  }
+  else {
+    callback(null,{
+      statusCode: 200,
+      headers: {},
+      body: JSON.stringify(data)
+    });
+  }
+}
 
 /**
  * Entry point of the AWS lambda function which contains the EventHub event domain: edu.byu, entity: AppDevGitHub, event_type: GitHub Push
@@ -79,7 +95,7 @@ exports.processEvent = function(event, context, callback) {
                           processSwaggerPromises.push(processSwaggerItem(swaggerURL));
                         });
                         Promise.settle(processSwaggerPromises).then(function (result_list) {
-                          callback(null,"Success");
+                          lambdaProxyResponse(null,"Success",callback);
                         });
                       });
                   }
@@ -89,19 +105,19 @@ exports.processEvent = function(event, context, callback) {
                 })
                 .catch(function (error) {
                   console.log(error);
-                  callback(null,error.message);
+                  lambdaProxyResponse(error.message,null,callback);
                 });
             }
             else {
-              callback(null, "Repository URL does not exist.");
+              lambdaProxyResponse(null,"Repository URL does not exist.",callback);
             }
           }
           else {
-            callback(null, "Acknowledge event");
+            lambdaProxyResponse(null, "Acknowledge event",callback);
           }
         }
         else {
-          callback(null, "Event does not exist.");
+          lambdaProxyResponse(null, "Event does not exist.",callback);
         }
       }
     })
