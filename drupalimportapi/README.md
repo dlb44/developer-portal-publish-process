@@ -1,5 +1,9 @@
-# Developer Portal - Drupal import API
-API for the Developer Portal site to import generated documentation 
+# Developer Portal
+## Drupal Import API
+API for the Developer Portal site to import generated documentation
+
+_Note: There is no extra setup configuration for this service after it is deployed with Handel._
+
 ## lambda_handler
 ```Python
 lambda_handler(event,context)
