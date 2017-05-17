@@ -4,3 +4,5 @@ This repository contains the services used in publishing documentation to Develo
 - [API Documenation README](apidocumentation/README.md)
 - [Developer Portal Import README](drupalimportapi/README.md)
 - [Info Hub Import README](infohubimport/README.md)
+
+_Note: This repository and services contained in it use the [Handel](https://github.com/byu-oit-appdev/handel) and [Handel CodePipeline](https://github.com/byu-oit-appdev/handel-codepipeline) tools._
