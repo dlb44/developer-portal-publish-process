@@ -5,7 +5,7 @@ pipelines:
     phases:
     - type: github
       name: Source
-      owner: byu-oit-appdev
+      owner: byu-oit
       repo: developer-portal-publish-process
       branch: master
     - type: codebuild
@@ -21,7 +21,7 @@ pipelines:
     phases:
     - type: github
       name: Source
-      owner: byu-oit-appdev
+      owner: byu-oit
       repo: developer-portal-publish-process
       branch: master
     - type: codebuild
