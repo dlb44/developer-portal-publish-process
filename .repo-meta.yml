@@ -14,8 +14,8 @@ ddd:
   ubiquitous_language_url: 
   context_map_url: 
 links:
-  system_documentation_url: https://github.com/byu-oit-appdev/developer-portal-publish-process
-  source_repo_url: https://github.com/byu-oit-appdev/developer-portal-publish-process
+  system_documentation_url: https://github.com/byu-oit/developer-portal-publish-process
+  source_repo_url: https://github.com/byu-oit/developer-portal-publish-process
   swagger_urls:
 microservice: false
 technologies_used:
@@ -52,4 +52,4 @@ tags:
   env: dev
   team: AD-Software Architecture
   app: developer-portal-publish-process
-federation_json_url: https://raw.githubusercontent.com/byu-oit-appdev/developer-portal-publish-process/master/.repo-meta.yml
+federation_json_url: https://raw.githubusercontent.com/byu-oit/developer-portal-publish-process/master/.repo-meta.yml
