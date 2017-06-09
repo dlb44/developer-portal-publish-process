@@ -75,7 +75,6 @@ environments:
       max_mb: 3990
       instance_type: t2.large
       multi_az: false
-      key_name: developerportal
       dependencies:
       - queue
       - bucket
