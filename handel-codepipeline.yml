@@ -1,5 +1,7 @@
 version: 1
 
+name: developerportalpublish
+
 pipelines:
   dev:
     phases:
